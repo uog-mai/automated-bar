@@ -1,0 +1,3 @@
+[submodule "hx711"]
+	path = hx711
+	url = https://github.com/ggurov/hx711.git
