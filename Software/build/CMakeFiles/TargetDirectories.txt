@@ -1,3 +1,0 @@
-/home/pi/automated-bar/Software/build/CMakeFiles/rebuild_cache.dir
-/home/pi/automated-bar/Software/build/CMakeFiles/edit_cache.dir
-/home/pi/automated-bar/Software/build/CMakeFiles/extension.cpython-35m-arm-linux-gnueabihf.so.dir

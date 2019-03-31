@@ -1,1 +1,0 @@
-/usr/bin/c++   -Wall -shared -O3   CMakeFiles/extension.cpython-35m-arm-linux-gnueabihf.so.dir/MultiServoControl.cpp.o  -o extension.cpython-35m-arm-linux-gnueabihf.so -Wl,-rpath,/usr/local/lib /usr/local/lib/libwiringPi.so /usr/local/lib/libwiringPiPca9685.so 
