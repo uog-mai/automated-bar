@@ -3,16 +3,9 @@
 // function prototype
 int *get_int(int *num);
 
-int main(int argc, char **argv)
+int main(void)
 {
   int err = 0;
-  if (argc < 3)
-  {
-    printf("\nRequired 3 args.");
-    printf("\nFirst arg is CLK pin, second arg is DATA pin (BMC numbering).");
-    printf("\nThird arg is number of samples.");
-    return 1;
-  }
 
   int priority = 10;
   err = setPriority(priority);
@@ -24,13 +17,10 @@ int main(int argc, char **argv)
 
   HX711 hx;
 
-  unsigned char clock_pin = (unsigned)atoi(argv[1]);
-  unsigned char data_pin = (unsigned)atoi(argv[2]);
-  unsigned int samples = 0;
-  if (argc == 4)
-  {
-    samples = (unsigned)atoi(argv[3]);
-  }
+  unsigned char clock_pin = 20;
+  unsigned char data_pin = 21;
+  unsigned int samples = 40;
+  
   err = initHX711(&hx, clock_pin, data_pin);
   if (err)
   {
