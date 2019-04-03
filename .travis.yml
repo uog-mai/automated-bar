@@ -14,7 +14,7 @@ addons:
       - clang-5.0
       - cmake-data
       - cmake
-      - wiringPi
+  
 
 
 matrix:
@@ -42,7 +42,7 @@ script:
   - ./build
   - cd ${TRAVIS_BUILD_DIR}
   - git clone https://github.com/Reinbert/pca9685.git
-  - cd pc9685/src
+  - cd pca9685/src
   - make 
   - cd ${TRAVIS_BUILD_DIR}
   - cd Software/
