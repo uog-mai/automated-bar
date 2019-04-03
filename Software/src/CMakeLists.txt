@@ -19,6 +19,7 @@ include_directories(
 		     /usr/include/python3.5m
 		     /usr/local/include/python3.5 
 		     /home/$ENV{USER}/.local/include/python3.5m
+		     ${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
 )
 
 add_executable(extension.cpython-35m-arm-linux-gnueabihf.so MultiServoControl.cpp)
