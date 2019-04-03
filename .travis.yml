@@ -14,6 +14,7 @@ addons:
       - clang-5.0
       - cmake-data
       - cmake
+      - wiringpi
 
 
 matrix:
