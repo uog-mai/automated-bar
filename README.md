@@ -19,3 +19,7 @@ Servo and solenoid actuated optic dispensing
 
 
 ### Completed as a project towards Real Time Embedded Programming 5 at the University of Glasgow
+=======
+# automated-bar
+ Automated drink dispensing system for Real Time Embedded Programming 5, University of Glasgow
+
