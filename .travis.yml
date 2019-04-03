@@ -41,6 +41,10 @@ script:
   - cd wiringPi
   - ./build
   - cd ${TRAVIS_BUILD_DIR}
+  - git clone https://github.com/Reinbert/pca9685.git
+  - cd pc9685/src
+  - make 
+  - cd ${TRAVIS_BUILD_DIR}
   - cd Software/
   - mkdir build
   - cd ./build
