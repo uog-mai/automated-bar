@@ -14,8 +14,7 @@ addons:
       - clang-5.0
       - cmake-data
       - cmake
-  
-
+      - python3-pip
 
 matrix:
   include:
@@ -40,10 +39,8 @@ script:
   - git clone git://git.drogon.net/wiringPi
   - cd wiringPi
   - ./build
-  - cd ${TRAVIS_BUILD_DIR}
-  - git clone https://github.com/Reinbert/pca9685.git
-  - cd pca9685/src
-  - make all -j
+  - cd ${TRAVIS_BUILD_DIR}/Software
+  - bash dependencies.sh 
   - cd ${TRAVIS_BUILD_DIR}
   - cd Software/
   - mkdir build
