@@ -12,8 +12,8 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 project(automated-bar)
 
-find_library(wiringPi_LIB wiringPi)
-find_library(wiringPi9685_LIB wiringPiPca9685)
+#find_library(wiringPi_LIB wiringPi)
+#find_library(wiringPi9685_LIB wiringPiPca9685)
 
 include_directories(
 		     /usr/include/python3.5m
@@ -23,5 +23,5 @@ include_directories(
 
 add_executable(extension.cpython-35m-arm-linux-gnueabihf.so MultiServoControl.cpp)
 
-target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so ${wiringPi_LIB})
-target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so  ${wiringPi9685_LIB})
+target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so -lwiringPi) #${wiringPi_LIB})
+target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so -lwiringPiPca9685) #${wiringPi9685_LIB})
