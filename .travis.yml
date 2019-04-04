@@ -33,6 +33,7 @@ matrix:
 
 before_install:
     - eval "${MATRIX_EVAL}"
+    - pyenv global system 3.5
     - pip3 install pybind11
 
 script:
