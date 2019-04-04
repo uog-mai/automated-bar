@@ -22,6 +22,7 @@ matrix:
   include:
     # works on Trusty
     - os: linux
+      env: PYTHON=3.5
       addons:
         apt:
           sources:
