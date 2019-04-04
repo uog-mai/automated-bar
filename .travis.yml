@@ -36,7 +36,7 @@ matrix:
 before_install:
     - eval "${MATRIX_EVAL}"
     - pyenv global $(pyenv whence 2to3) 
-    - pip3 install --user --upgrade pip3 virtualenv
+    - pip3 install --user --upgrade pip virtualenv
     - virtualenv -p python3.5 venv
     - source venv/bin/activate
 
