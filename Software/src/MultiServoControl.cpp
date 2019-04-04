@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
-#include <pca9685.h>
+#include "pca9685/src/pca9685.h"
 #include <iostream>
 #include <pybind11/pybind11.h>
 #include <string>
