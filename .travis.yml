@@ -42,8 +42,7 @@ before_install:
 
 
 install:
-    - python3 setup.py sdist
-    - pip3 install --verbose dist/*.tar.gz
+    - pip3 install pybind11
 
 script:
   - CXX=/usr/bin/clang++-5.0
