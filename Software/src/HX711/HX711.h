@@ -1,12 +1,6 @@
 #ifndef HX711_h
 #define HX711_h
 
-#if ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-
 class HX711
 {
 	private:
