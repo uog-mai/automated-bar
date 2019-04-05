@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/automated-bar/Software/src/HX711/HX711.cpp
+HX711.h
+/home/pi/automated-bar/Software/src/HX711/HX711.h
+wiringPi.h
+-
+wiringShift.h
+-
+vector
+-
+algorithm
+-
+
+/home/pi/automated-bar/Software/src/HX711/HX711.h
+
+/home/pi/automated-bar/Software/src/HX711/readScale.cpp
+HX711.h
+/home/pi/automated-bar/Software/src/HX711/HX711.h
+stdio.h
+-
+wiringPi.h
+-
+unistd.h
+-
+cmath
+-
+

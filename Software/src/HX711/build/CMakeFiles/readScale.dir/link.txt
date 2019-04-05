@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall   CMakeFiles/readScale.dir/readScale.cpp.o CMakeFiles/readScale.dir/HX711.cpp.o  -o readScale -lwiringPi 
