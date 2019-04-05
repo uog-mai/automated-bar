@@ -1,3 +1,0 @@
-/home/pi/automated-bar/Software/src/HX711/build/CMakeFiles/rebuild_cache.dir
-/home/pi/automated-bar/Software/src/HX711/build/CMakeFiles/edit_cache.dir
-/home/pi/automated-bar/Software/src/HX711/build/CMakeFiles/readScale.dir
