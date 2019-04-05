@@ -38,6 +38,8 @@ class HX711
 
 		// returns an average reading; times = how many times to read
 		long read_average(int times = 10);
+		// returns trimmed average reading; times = how many times to read
+		long read_trimmed_avg(int times = 14);
 
 		// returns (read_average() - OFFSET), that is the current value without the tare weight; times = how many readings to do
 		double get_value(int times = 1);
@@ -60,6 +62,7 @@ class HX711
 
 		// get the current OFFSET
 		long get_offset();
+		//AutoCallibrate; callibrates the offset again 
 
 		// puts the chip into power down mode
 		void power_down();

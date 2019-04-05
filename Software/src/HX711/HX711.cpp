@@ -1,5 +1,8 @@
-#include <HX711.h>
-#include <WiringPi.h>
+#include "HX711.h"
+#include <wiringPi.h>
+#include <wiringShift.h>
+#include <vector>
+#include <algorithm>
 
 HX711::HX711(int dout, int pd_sck, int gain) {
 	begin(dout, pd_sck, gain);
@@ -46,7 +49,7 @@ long HX711::read() {
 	// wait for the chip to become ready
 	while (!is_ready()) {
 		// Will do nothing on Arduino but prevent resets of ESP8266 (Watchdog Issue)
-		yield();
+		//yield();
 	}
 
 	unsigned long value = 0;
@@ -84,9 +87,26 @@ long HX711::read_average(int times) {
 	long sum = 0;
 	for (int i = 0; i < times; i++) {
 		sum += read();
-		yield();
+		//yield();
 	}
 	return sum / times;
+}
+
+long HX711::read_trimmed_avg(int times) {
+	std::vector<long> values(times);
+	for (int i = 0; i < times; i++) {
+		values[i] = read();
+	}
+	std::sort (values.begin(), values.end());
+	std::vector<long>::const_iterator first =  values.begin() + 2;
+	std::vector<long>::const_iterator last = values.end() - 2;
+	std::vector<long> trimmed_mean(first, last);
+
+	long sum = 0;
+
+	for (auto& n : trimmed_mean)
+		sum =+ n;
+	return sum / trimmed_mean.size();
 }
 
 double HX711::get_value(int times) {
