@@ -1,13 +1,7 @@
-#include <Arduino.h>
 #include <HX711.h>
+#include <WiringPi.h>
 
-#if ARDUINO_VERSION <= 106
-    // "yield" is not implemented as noop in older Arduino Core releases, so let's define it.
-    // See also: https://stackoverflow.com/questions/34497758/what-is-the-secret-of-the-arduino-yieldfunction/34498165#34498165
-    void yield(void) {};
-#endif
-
-HX711::HX711(byte dout, byte pd_sck, byte gain) {
+HX711::HX711(int dout, int pd_sck, int gain) {
 	begin(dout, pd_sck, gain);
 }
 
@@ -17,7 +11,7 @@ HX711::HX711() {
 HX711::~HX711() {
 }
 
-void HX711::begin(byte dout, byte pd_sck, byte gain) {
+void HX711::begin(int dout, int pd_sck, int gain) {
 	PD_SCK = pd_sck;
 	DOUT = dout;
 
@@ -31,7 +25,7 @@ bool HX711::is_ready() {
 	return digitalRead(DOUT) == LOW;
 }
 
-void HX711::set_gain(byte gain) {
+void HX711::set_gain(int gain) {
 	switch (gain) {
 		case 128:		// channel A, gain factor 128
 			GAIN = 1;
@@ -86,24 +80,24 @@ long HX711::read() {
 	return static_cast<long>(value);
 }
 
-long HX711::read_average(byte times) {
+long HX711::read_average(int times) {
 	long sum = 0;
-	for (byte i = 0; i < times; i++) {
+	for (int i = 0; i < times; i++) {
 		sum += read();
 		yield();
 	}
 	return sum / times;
 }
 
-double HX711::get_value(byte times) {
+double HX711::get_value(int times) {
 	return read_average(times) - OFFSET;
 }
 
-float HX711::get_units(byte times) {
+float HX711::get_units(int times) {
 	return get_value(times) / SCALE;
 }
 
-void HX711::tare(byte times) {
+void HX711::tare(int times) {
 	double sum = read_average(times);
 	set_offset(sum);
 }
