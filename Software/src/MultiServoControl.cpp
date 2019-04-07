@@ -115,7 +115,7 @@ int serveDrink(std::string mixer, std::string alcohol)
     return alcIndex;
 }
 
-PYBIND11_MODULE(extension, m) 
+PYBIND11_MODULE(libextension, m) 
 {
     m.doc() = "pybind11 example plugin"; // optional module docstring
 

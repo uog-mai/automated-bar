@@ -4,7 +4,6 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 
-set(CMAKE_CXX_FLAGS "-Wall -shared")
 set (CMAKE_CXX_STANDARD 11)
 set(PYBIND11_CPP_STANDARD -std=c++11)
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
@@ -22,7 +21,7 @@ include_directories(
 		     ${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
 )
 
-add_executable(extension.cpython-35m-arm-linux-gnueabihf.so MultiServoControl.cpp)
+add_library(extension.cpython-35m-arm-linux-gnueabihf SHARED MultiServoControl.cpp)
 
-target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so -lwiringPi) #${wiringPi_LIB})
-target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf.so -lwiringPiPca9685) #${wiringPi9685_LIB})
+target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf -lwiringPi) # ${wiringPi_LIB})
+target_link_libraries(extension.cpython-35m-arm-linux-gnueabihf -lwiringPiPca9685)  #${wiringPi9685_LIB})
