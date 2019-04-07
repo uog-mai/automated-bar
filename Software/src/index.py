@@ -4,7 +4,7 @@ import os
 #import dialogflow
 import requests
 import json
-import extension
+import libextension
 
 app = Flask(__name__)
 
@@ -26,7 +26,7 @@ def get_drink():
         "fulfillmentText": response,
     }
 
-    print("Server recieved ",  extension.serveDrink(mixerString, alcString))
+    print("Server recieved ", libextension.serveDrink(mixerString, alcString))
 
     return jsonify(reply)
 
