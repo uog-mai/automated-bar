@@ -15,6 +15,15 @@ execute_process(COMMAND bash -c "echo `python3 -m pybind11 --includes`" OUTPUT_V
 
 
 string(REGEX REPLACE "\n$" "" extension "${extension}")
+
+string(REPLACE "-I" "" paths ${paths})
+string(REPLACE " " ";" ARG_LIST ${paths})
+message( ${ARG_LIST} )
+list(GET ARG_LIST 0 DIR1)
+list(GET ARG_LIST 1 DIR2)
+list(GET ARG_LIST 2 DIR3)
+
+message( ${DIR1} )
  
 project(automated-bar)
 
@@ -22,11 +31,14 @@ project(automated-bar)
 #find_library(wiringPi9685_LIB wiringPiPca9685)
 
 include_directories(
-		     /usr/include/python3.5m
-		     /usr/local/include/python3.5 
-		     /home/$ENV{USER}/.local/include/python3.5m
+		     ${DIR1}
+		     #/usr/local/include/python3.5
+		     ${DIR2}
+	             ${DIR3} 
+		     #/home/$ENV{USER}/.local/include/python3.5m
 		     ${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
 )
+
 message(extension${extension})
 add_library(extension${extension} SHARED MultiServoControl.cpp)
 
