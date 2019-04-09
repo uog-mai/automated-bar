@@ -57,4 +57,4 @@ script:
   - ctest --output-on-failure
   - make clean
   - cmake -DCMAKE_BUILD_TYPE=Release ../src
-  - make -j
+  - make all -j
