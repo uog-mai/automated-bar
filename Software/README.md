@@ -1,5 +1,5 @@
 ## State Transition Diagram
-![Alt text](images/MooreStateModel.png)
+![Alt text](assetss/MooreStateModel.png)
 
 ## Sequence Diagram
-![Alt text](images/UMLDiagram.png)
+![Alt text](assets/UMLDiagram.png)
