@@ -20,9 +20,6 @@ string(REGEX REPLACE "\n$" "" extension "${extension}")
 string(REPLACE "-I" "" paths ${paths})
 string(REPLACE " " ";" ARG_LIST ${paths})
 message( ${ARG_LIST} )
-list(GET ARG_LIST 0 DIR1)
-list(GET ARG_LIST 1 DIR2)
-list(GET ARG_LIST 2 DIR3)
 
 message( ${DIR1} )
  
@@ -32,11 +29,7 @@ project(automated-bar)
 #find_library(wiringPi9685_LIB wiringPiPca9685)
 
 include_directories(
-		     ${DIR1}
-		     #/usr/local/include/python3.5
-		     ${DIR2}
-	             ${DIR3} 
-		     #/home/$ENV{USER}/.local/include/python3.5m
+	             ${ARG_LIST} 		     
 		     ${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
 )
 
