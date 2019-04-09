@@ -13,6 +13,7 @@ set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 execute_process(COMMAND bash -c "echo `python3-config --extension-suffix" OUTPUT_VARIABLE extension)
 execute_process(COMMAND bash -c "echo `python3 -m pybind11 --includes`" OUTPUT_VARIABLE paths)
 
+message( ${paths} )
 
 string(REGEX REPLACE "\n$" "" extension "${extension}")
 
