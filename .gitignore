@@ -1,5 +1,4 @@
-#Build path
-Software/src/build/*
+.vscode/*
 
-#Test scripts
-Software/src/test/*
+# Build Dirs
+build/
