@@ -21,7 +21,7 @@ string(REPLACE "-I" "" paths ${paths})
 string(REPLACE " " ";" ARG_LIST ${paths})
 message( ${ARG_LIST} )
 
-message( ${DIR1} )
+
  
 project(automated-bar)
 
