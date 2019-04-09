@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/uog-mai/automated-bar.svg?branch=develop)](https://travis-ci.org/uog-mai/automated-bar)
+
 # Automated-Bar
 This project aims to produce a low-cost automated drinks vending system for use in high-end consumer and commercial applications.
 
