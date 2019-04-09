@@ -5,7 +5,7 @@ cd wiringPi
 cd ../
 git clone https://github.com/Reinbert/pca9685.git
 cd pca9685/src
-make -j
+sudo make install
 cd ../
 
 
