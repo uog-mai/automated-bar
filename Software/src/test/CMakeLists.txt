@@ -19,9 +19,18 @@ execute_process(COMMAND bash -c "echo `python3 -m pybind11 --includes`" OUTPUT_V
 string(REPLACE "-I" "" outVar ${outVar})
 string(REPLACE " " ";" ARG_LIST ${outVar})
 message( ${ARG_LIST} )
+
+#foreach(dir ${ARG_LIST})
+#  message{ ${dir} }
+#endforeach()
+
 list(GET ARG_LIST 0 DIR1)
 list(GET ARG_LIST 1 DIR2)
 list(GET ARG_LIST 2 DIR3)
 
 message( ${DIR1} )
+
+include_directories(
+	${ARG_LIS}
+)
 
