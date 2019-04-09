@@ -1,11 +1,12 @@
-#include <map>
+#pragma once
 
-#include "ServoHandler.h"
+#include <string>
 
-class Drinks {
-public:
+namespace mai {
 
-    enum class DrinkType {
+  namespace Drinks {
+
+      enum class Type {
         BUCKFAST,
         COKE,
         GIN,
@@ -14,47 +15,37 @@ public:
         RUM,
         TONIC,
         VODKA
-    };
+      };
 
-    enum class DrinkStatus {
-        DISPENSE_FAILURE,
-        DISPENSE_SUCCESS
-    };
+      class Position {
+      public:
+        Position(const unsigned int pin_num) : m_pin_num(pin_num) {}
+      
+      private:
+        unsigned int m_pin_num;
+      };
 
-    static DrinkType resolve_drink(const std::string &drink) {
-      if (drink == "buckfast")
-        return DrinkType::BUCKFAST;
-      else if (drink == "coke")
-        return DrinkType::COKE;
-      else if (drink == "gin")
-        return DrinkType::GIN;
-      else if (drink == "irnbru")
-        return DrinkType::IRNBRU;
-      else if (drink == "lemonade")
-        return DrinkType::LEMONADE;
-      else if (drink == "rum")
-        return DrinkType::RUM;
-      else if (drink == "tonic")
-        return DrinkType::TONIC;
-      else if (drink == "vodka")
-        return DrinkType::VODKA;
-      else
-        throw std::runtime_error("Could not resolve drink type: " + drink);
-    }
+      static Drinks::Type resolve_drink(const std::string &drink) {
+        if (drink == "buckfast")
+          return Drinks::Type::BUCKFAST;
+        else if (drink == "coke")
+          return Drinks::Type::COKE;
+        else if (drink == "gin")
+          return Drinks::Type::GIN;
+        else if (drink == "irnbru")
+          return Drinks::Type::IRNBRU;
+        else if (drink == "lemonade")
+          return Drinks::Type::LEMONADE;
+        else if (drink == "rum")
+          return Drinks::Type::RUM;
+        else if (drink == "tonic")
+          return Drinks::Type::TONIC;
+        else if (drink == "vodka")
+          return Drinks::Type::VODKA;
+        else
+          throw std::runtime_error("Could not resolve drink type: " + drink);
+      }
 
-    DrinkStatus dispense_drink(const int volume_ml);
+  }
 
-private:
-
-    const std::map<DrinkTypes, ServoHandler> drink_servos = {
-        { DrinkTypes::BUCKFAST, ServoHandler(0)},
-        { DrinkTypes::COKE, ServoHandler(1)},
-        { DrinkTypes::GIN, ServoHandler(2)},
-        { DrinkTypes::IRNBRU, ServoHandler(3)},
-        { DrinkTypes::LEMONADE, ServoHandler(4)},
-        { DrinkTypes::RUM, ServoHandler(5)},
-        { DrinkTypes::TONIC, ServoHandler(6)},
-        { DrinkTypes::VODKA, ServoHandler(7)}
-    };
-
-};
+}
