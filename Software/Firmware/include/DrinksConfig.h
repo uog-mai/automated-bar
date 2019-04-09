@@ -17,7 +17,7 @@ namespace mai {
         Drinks::Position get_position(const Drinks::Type drink_type);
 
     private:
-        std::map<Drinks::Type, Drinks::Position> drinks_map;
+        std::map<Drinks::Type, Drinks::Position> m_drinks_map;
          
     };
 

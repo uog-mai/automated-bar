@@ -21,6 +21,10 @@ namespace mai {
       public:
         Position(const unsigned int pin_num) : m_pin_num(pin_num) {}
       
+        bool operator==(const Position &rhs) const {
+          return m_pin_num == rhs.m_pin_num;
+        }
+
       private:
         unsigned int m_pin_num;
       };
