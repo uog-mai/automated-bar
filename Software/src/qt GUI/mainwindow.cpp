@@ -30,10 +30,44 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-   /* QString avDrinks = "C:/Users/User/Documents/AutoBar/avDrinks.txt";
-    //QTextStream in(&avDrinks);
-    QString avD = Drinks(avDrinks);
-    ui->textBrowser->setText(avD);*/
+    ui->textBrowser->setText("<font size = 5><b><i>Vodka</b></i></font>");
+    ui->textBrowser->setAlignment(Qt::AlignCenter);
+    ui->textBrowser->setFrameStyle(QFrame::NoFrame);
+
+    ui->textBrowser_2->setText("<font size = 5><b><i>Gin</b></i></font>");
+    ui->textBrowser_2->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_2->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_2->setFontPointSize(26);
+
+    ui->textBrowser_3->setText("<font size = 5><b><i>Rum</b></i></font>");
+    ui->textBrowser_3->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_3->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_3->setFontPointSize(26);
+
+    ui->textBrowser_4->setText("<font size = 5><b><i>Buckfast</b></i></font>");
+    ui->textBrowser_4->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_4->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_4->setFontPointSize(26);
+
+    ui->textBrowser_5->setText("<font size = 5><b><i>Coca Cola</b></i></font>");
+    ui->textBrowser_5->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_5->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_5->setFontPointSize(26);
+
+    ui->textBrowser_6->setText("<font size = 5><b><i>Lemonade</b></i></font>");
+    ui->textBrowser_6->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_6->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_6->setFontPointSize(26);
+
+    ui->textBrowser_7->setText("<font size = 5><b><i>Irn Bru</b></i></font>");
+    ui->textBrowser_7->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_7->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_7->setFontPointSize(26);
+
+    ui->textBrowser_8->setText("<font size = 5><b><i>Tonic</b></i></font>");
+    ui->textBrowser_8->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_8->setFrameStyle(QFrame::NoFrame);
+    ui->textBrowser_8->setFontPointSize(26);
 }
 
 MainWindow::~MainWindow()
