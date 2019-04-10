@@ -1,3 +1,4 @@
+#!/bin/bash
 cd lib/
 if [ -d "wiringPi" ]; then
   rm -rf wiringPi
