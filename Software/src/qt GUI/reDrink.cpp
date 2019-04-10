@@ -32,7 +32,7 @@ void Write(QString Filename,int P)
 
 void reDrink::on_buttonBox_accepted()
 {
-    QString aDrink = "C:/Users/User/Documents/AutoBar/reDrink.txt";
+    QString aDrink = "C:\\Users\\User\\Desktop\\automated-bar\\Software\\src\\qt GUI\\reDrink.txt";
     int Pos = ui->spinBox->value();
     Write(aDrink, Pos);
 }

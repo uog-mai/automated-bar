@@ -30,6 +30,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //this->setFixedSize(1200,950);
     ui->textBrowser->setText("<font size = 5><b><i>Vodka</b></i></font>");
     ui->textBrowser->setAlignment(Qt::AlignCenter);
     ui->textBrowser->setFrameStyle(QFrame::NoFrame);
