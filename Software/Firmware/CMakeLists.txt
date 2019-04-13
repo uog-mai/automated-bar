@@ -31,6 +31,7 @@ project(automated-bar)
 
 include_directories(
 	"${CMAKE_SOURCE_DIR}/include/"
+	"${CMAKE_SOURCE_DIR}/lib/"
 #	${ARG_LIST} 		     
 #	${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
 )

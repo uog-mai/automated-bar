@@ -16,7 +16,6 @@ DrinksConfig::DrinksConfig() {
 }
 
 void DrinksConfig::set_position(const Drinks::Position drink_pos, const Drinks::Type drink_type) {
-    
 }
 
 Drinks::Type DrinksConfig::get_drink(const Drinks::Position drink_pos) {
@@ -24,5 +23,4 @@ Drinks::Type DrinksConfig::get_drink(const Drinks::Position drink_pos) {
 
 Drinks::Position DrinksConfig::get_position(const Drinks::Type drink_type) {
   return m_drinks_map.find(drink_type)->second;
-
 }

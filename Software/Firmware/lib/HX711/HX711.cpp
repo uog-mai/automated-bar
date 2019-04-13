@@ -106,6 +106,8 @@ long HX711::read_trimmed_avg(int times) {
 
 	for (auto& n : trimmed_mean)
 		sum =+ n;
+
+	// TODO: Cast as float and eturrn value in grams
 	return sum / trimmed_mean.size();
 }
 

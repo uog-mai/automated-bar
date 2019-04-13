@@ -28,8 +28,8 @@ namespace mai {
       private:
         unsigned int m_pin_num;
       };
-
-      static Drinks::Type resolve_drink(const std::string &drink) {
+      
+      static Type resolve_drink(const std::string &drink) {
         if (drink == "buckfast")
           return Drinks::Type::BUCKFAST;
         else if (drink == "coke")

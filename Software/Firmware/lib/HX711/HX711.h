@@ -14,11 +14,11 @@ class HX711
 		// define clock and data pin, channel, and gain factor
 		// channel selection is made by passing the appropriate gain: 128 or 64 for channel A, 32 for channel B
 		// gain: 128 or 64 for channel A; channel B works with 32 gain factor only
-		HX711(int dout, int pd_sck, int gain = 128);
+		HX711(int dout = 2, int pd_sck = 0, int gain = 128);
 
-		HX711();
+		//HX711();
 
-		virtual ~HX711();
+		//virtual ~HX711();
 
 		// Allows to set the pins and gain later than in the constructor
 		void begin(int dout, int pd_sck, int gain = 128);
