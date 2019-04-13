@@ -1,8 +1,9 @@
-#include "Servos.h"
+#include "ServoHandler.h"
 
 #include "pca9685/src/pca9685.h"
 #include <wiringPi.h>
 #include <wiringPiI2C.h>
+#include <stdexcept>
 
 
 ServoHandler::ServoHandler(const int pin_num)
@@ -21,13 +22,13 @@ ServoHandler::ServoHandler(const int pin_num)
 ServoHandler::ServoStatus ServoHandler::activate() {
     /* @TODO */
     m_activated = true;
-    pwmWrite(m_pin_base + pin_num , m_pwm_on);
+    pwmWrite(m_pin_base + m_pin_num , m_pwm_on);
     return ServoHandler::ServoStatus::ACTION_SUCCESS;
 }
 
 ServoHandler::ServoStatus ServoHandler::deactivate() {
     /* @TODO */
     m_activated = false;
-    pwmWrite(m_pin_base + pin_num , m_pwm_off);
+    pwmWrite(m_pin_base + m_pin_num , m_pwm_off);
     return ServoHandler::ServoStatus::ACTION_SUCCESS;
 }

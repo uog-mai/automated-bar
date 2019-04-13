@@ -1,4 +1,5 @@
-cd src/
+#!/bin/bash
+cd Firmware/lib/
 if [ -d "wiringPi" ]; then
   rm -rf wiringPi
 fi

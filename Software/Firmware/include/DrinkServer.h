@@ -11,7 +11,7 @@ class DrinkServer {
 typedef unsigned int pin_num_t;
 public:
 
-    HX711 scale();
+    HX711 scale;
 
     enum class Status {
         DISPENSE_FAILURE,
@@ -19,6 +19,8 @@ public:
     };
 
     DrinkServer(const mai::DrinksConfig &drinks_config);
+
+    Status weight_match(HX711 scale, const float target_weight);
 
     Status dispense_drink(const mai::Drinks::Type drink_type, const float weight_gm);
 

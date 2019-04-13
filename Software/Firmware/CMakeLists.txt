@@ -11,7 +11,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
 # For creating python modules in c++
-execute_process(COMMAND bash -c "echo `python3-config --extension-suffix" OUTPUT_VARIABLE extension)
+execute_process(COMMAND bash -c "echo `python3-config --extension-suffix`" OUTPUT_VARIABLE extension)
 execute_process(COMMAND bash -c "echo `python3 -m pybind11 --includes`" OUTPUT_VARIABLE paths)
 
 # Logging
@@ -35,15 +35,18 @@ include_directories(
 	${ARG_LIST} 		     
 )
 
-#add_library(DrinksConfig SHARED src/DrinksConfig.cpp)
+
 add_library(DrinksConfig SHARED src/DrinksConfig.cpp)
 add_library(extension${extension} SHARED src/PyDrinkServer.cpp)
 #add_library(DrinkServer SHARED src/DrinkServer.cpp)
-#add_library(ServoHandler SHARED src/ServoHandler.cpp)
+add_library(ServoHandler SHARED src/ServoHandler.cpp)
+add_library(HX711 SHARED lib/HX711/HX711.cpp)
 
 target_link_libraries(extension${extension}
 	DrinksConfig
 	#DrinkServer
+	ServoHandler
+	HX711
 	#-lwiringPi
 	#-lwiringPiPca9685
 )

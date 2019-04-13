@@ -24,6 +24,7 @@ namespace mai {
         bool operator==(const Position &rhs) const {
           return m_pin_num == rhs.m_pin_num;
         }
+        operator int() const { return m_pin_num; }
 
       private:
         unsigned int m_pin_num;
