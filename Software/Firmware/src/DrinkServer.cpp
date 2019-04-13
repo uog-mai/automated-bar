@@ -1,7 +1,7 @@
 #include "DrinkServer.h"
 
 
-DrinkServer::DrinkServer(mai::DrinksConfig &drinks_config) {
+DrinkServer::DrinkServer(const mai::DrinksConfig &drinks_config) {
     for (const auto& drink: drinks_config) {
         const Drinks::DrinkType drink_type = drink.first;
         const Drinks::DrinkPosition drink_pos = drink.second;

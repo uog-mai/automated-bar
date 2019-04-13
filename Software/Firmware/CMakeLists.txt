@@ -32,17 +32,20 @@ project(automated-bar)
 include_directories(
 	"${CMAKE_SOURCE_DIR}/include/"
 	"${CMAKE_SOURCE_DIR}/lib/"
-#	${ARG_LIST} 		     
-#	${CMAKE_CURRENT_SOURCE_DIR}/src/pca9685/src
+	${ARG_LIST} 		     
 )
 
+#add_library(DrinksConfig SHARED src/DrinksConfig.cpp)
 add_library(DrinksConfig SHARED src/DrinksConfig.cpp)
 add_library(extension${extension} SHARED src/PyDrinkServer.cpp)
+#add_library(DrinkServer SHARED src/DrinkServer.cpp)
+#add_library(ServoHandler SHARED src/ServoHandler.cpp)
 
 target_link_libraries(extension${extension}
 	DrinksConfig
-#	-lwiringPi
-#	-lwiringPiPca9685
+	#DrinkServer
+	#-lwiringPi
+	#-lwiringPiPca9685
 )
 
 IF(CMAKE_BUILD_TYPE MATCHES Debug)

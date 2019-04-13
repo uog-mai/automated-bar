@@ -18,7 +18,7 @@ public:
         DISPENSE_SUCCESS
     };
 
-    DrinkServer(mai::DrinksConfig &drinks_config);
+    DrinkServer(const mai::DrinksConfig &drinks_config);
 
     Status dispense_drink(const mai::Drinks::Type drink_type, const float weight_gm);
 
