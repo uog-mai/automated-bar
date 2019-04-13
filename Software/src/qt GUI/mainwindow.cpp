@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include "adddrink.h"
 #include "reDrink.h"
+#include <QApplication>
 #include <QFile>
 #include <QString>
 #include <QDebug>
@@ -10,34 +11,6 @@
 #include <QtGui>
 #include <QTextStream>
 
-QString Drinks(QString Filename)
-{
-    QFile aFile(Filename);
-    if(!aFile.open(QFile::ReadOnly | QFile::Text))
-    {
-        qDebug() << "Could not open";
-        return "Could not open";
-    }
-    QTextStream in(&aFile);
-    QString avDrinks = in.readAll();
-    aFile.close();
-    return avDrinks;
-
-}
-
-QString Read(QString Filename)
-{
-    QFile aFile(Filename);
-    if(!aFile.open(QFile::ReadOnly | QFile::Text))
-    {
-        qDebug() << "Could not open";
-        return "Could not open";
-    }
-    QTextStream in(&aFile);
-    QString reply = in.readAll();
-    aFile.close();
-    return reply;
-}
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -45,6 +18,8 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
     //this->setFixedSize(1200,950);
+    int p = 1;
+
     QString pos1 = "Vodka";
     QTextStream p1(&pos1);
     QString pos2 = "Gin";
@@ -125,21 +100,6 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-/*void MainWindow::on_actionAdd_triggered()
-{
-    addDrink aDrink;
-    aDrink.setModal(true);
-    aDrink.exec();
-}
-
-void MainWindow::on_actionRemove_triggered()
-{
-    reDrink rDrink;
-    rDrink.setModal(true);
-    rDrink.exec();
-}
-*/
 
 void MainWindow::on_pushButton_clicked()
 {
