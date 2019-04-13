@@ -1,5 +1,5 @@
-## Moore State Behaviour Model of System
-![Alt text](images/MooreStateModel.png)
+## State Transition Diagram
+![Alt text](assets/MooreStateModel.png)
 
 ## Sequence Diagram
-![Alt text](images/UMLDiagram.png)
+![Alt text](assets/UMLDiagram.png)
