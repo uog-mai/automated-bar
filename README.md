@@ -21,7 +21,10 @@ Servo and solenoid actuated optic dispensing
 
 
 ### Completed as a project towards Real Time Embedded Programming 5 at the University of Glasgow
-## Overview
+## Hardware 
+A complete parts list and build instructions can be found on 
+## Download and Build Instructions
+
 ![Alt text](assets/InteractionDiagram.png)
 
 
