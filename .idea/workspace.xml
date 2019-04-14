@@ -9,7 +9,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef9c32d3-b28f-4f11-8c75-5dc9df0c4f9a" name="Default Changelist" comment="" />
+    <list default="true" id="ef9c32d3-b28f-4f11-8c75-5dc9df0c4f9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/baseplate.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/baseplate.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/baseplate.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/baseplate.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/extrusion_clip.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/extrusion_clip.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/extrusion_clip.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/extrusion_clip.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/plunger.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/plunger.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/plunger.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/plunger.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/prox_base.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/prox_base.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/prox_base.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/prox_base.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/servo.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/servo.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/servo.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/servo.stl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/tube_clamp.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/tube_clamp.ipt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hardware/tube_clamp.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/tube_clamp.stl" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,11 +32,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Software/Server/index.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
+            <state relative-caret-position="340">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
@@ -59,11 +74,36 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Software/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="68">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Docs/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <entry file="file://$PROJECT_DIR$/Hardware/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="119">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -72,6 +112,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Hardware/README.md" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="906" />
@@ -84,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,18 +142,47 @@
             <path>
               <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
               <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Docs" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
               <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
               <item name="Hardware" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="Hardware" type="462c0819:PsiDirectoryNode" />
+              <item name="CAD" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="Software" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="Software" type="462c0819:PsiDirectoryNode" />
+              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="Software" type="462c0819:PsiDirectoryNode" />
+              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
+              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
+              <item name="Software" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,6 +190,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\Desktop\automated-bar\Hardware\CAD\IPT Inventor files" />
+      <recent name="C:\Users\peter\Desktop\automated-bar\Hardware\CAD\STL print files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -137,22 +220,20 @@
       <option name="presentableId" value="Default" />
       <updated>1555244034133</updated>
       <workItem from="1555244035498" duration="1188000" />
+      <workItem from="1555248858980" duration="5854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1188000" />
+    <option name="totallyTimeSpent" value="7042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25292096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -160,10 +241,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,29 +260,7 @@
         <state relative-caret-position="-677" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Server/index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ServoHandler.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Software/Firmware/include/ProximitySensor.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/PyDrinkServer.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/DrinksConfig.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/DrinkServer.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Software/Firmware/test/main.cpp">
@@ -213,6 +276,43 @@
     <entry file="file://$PROJECT_DIR$/Software/Server/README.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Server/index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ServoHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/PyDrinkServer.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/DrinkServer.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/DrinksConfig.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ProximitySensor.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -220,10 +320,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Docs/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hardware/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
