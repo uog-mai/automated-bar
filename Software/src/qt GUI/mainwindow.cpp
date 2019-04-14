@@ -12,21 +12,36 @@
 #include <QTextStream>
 
 
+void Update(QString *p1, QString *p2, QString *p3, QString *p4)
+{
+    QString pos1 = "Vodka";
+    *p1 = pos1;
+    QString pos2 = "Gin";
+    *p2 = pos2;
+    QString pos3 = "Rum";
+    *p3 = pos3;
+    QString pos4 = "Buckfast";
+    *p4 = pos4;
+}
+
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
     //this->setFixedSize(1200,950);
-    int p = 1;
-
-    QString pos1 = "Vodka";
+    QString pos1;
+    QString pos2;
+    QString pos3;
+    QString pos4;
+    Update(&pos1,&pos2,&pos3,&pos4);
     QTextStream p1(&pos1);
-    QString pos2 = "Gin";
+    //QString pos2 = "Gin";
     QTextStream p2(&pos2);
-    QString pos3 = "Rum";
+    //QString pos3 = "Rum";
     QTextStream p3(&pos3);
-    QString pos4 = "Buckfast";
+    //QString pos4 = "Buckfast";
     QTextStream p4(&pos4);
     QString pos5 = "Coca Cola";
     QTextStream p5(&pos5);
