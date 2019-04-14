@@ -1,4 +1,7 @@
 # Automated-Bar
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8798b1cd33d462193d0fee1f1609742)](https://app.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&utm_medium=referral&utm_content=uog-mai/automated-bar&utm_campaign=Badge_Grade_Dashboard)
+
 This project aims to produce a low-cost automated drinks vending system for use in high-end consumer and commercial applications.
 
 ## Features
