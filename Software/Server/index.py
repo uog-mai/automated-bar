@@ -1,12 +1,15 @@
-
 from flask import Flask, request, jsonify, render_template
-import os
-#import dialogflow
 import requests
-import json
-import extension
+
+import database
+import sys, os
+#sys.path.append(os.path.join(os.path.dirname(__file__), '../Firmware/build', 'libextension'))
+#print(sys.path)
+import libextension
+#import libDrinksConfig
 
 app = Flask(__name__)
+
 
 @app.route('/')
 def index():
@@ -16,19 +19,30 @@ def index():
 def get_drink():
 
     data = request.get_json(silent=True)
+
     mixer = data['queryResult']['parameters']['mixer']
     alcohol = data['queryResult']['parameters']['alcohol']
     print(mixer, alcohol)
-    response = 'I can see youre a cultured individual, its on its way'
+
+    
+    # Get alcohol name
     mixerString = ''.join(mixer)
     alcString = ''.join(alcohol)
+
+    # Calculate required drink weights
+    alc_weight = database.get_alcohol_weight("Rum", 20)
+    
+    
+    response = database.random_response()       
+                
     reply = {
         "fulfillmentText": response,
     }
 
-    print("Server recieved ",  extension.serveDrink(mixerString, alcString))
+    #print("Server recieved ", libextension.serveDrink(mixerString, alcString))
 
     return jsonify(reply)
+    
 
 
 # run Flask app
