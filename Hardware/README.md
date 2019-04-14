@@ -22,4 +22,8 @@ For future development, pads were also provided for:
 * x1 Spare load cell amplifier channel
 * x2 Opto-isolated solenoid drivers with 12V rail
 
+<<<<<<< HEAD
 For full design files, see the publicly accessible CircuitMaker project: https://circuitmaker.com/Projects/Details/Peter-Fleming-2/UoG-mai-automated-bar
+=======
+![Alt text](assets/ShieldRendering.PNG)
+>>>>>>> f2fd31f4957bbf0739796120f43c39e6d23ce74c
