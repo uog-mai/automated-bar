@@ -50,15 +50,21 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ProximitySensor.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Software/Server/database.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Docs/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-677" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -95,57 +101,6 @@
               <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
               <item name="Hardware" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Firmware" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automated-bar" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automated-bar" type="462c0819:PsiDirectoryNode" />
-              <item name="Software" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -181,12 +136,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555244034133</updated>
-      <workItem from="1555244035498" duration="363000" />
+      <workItem from="1555244035498" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="363000" />
+    <option name="totallyTimeSpent" value="1188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
@@ -255,8 +210,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ProximitySensor.cpp">
+    <entry file="file://$PROJECT_DIR$/Software/Server/README.md">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ProximitySensor.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Docs/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
