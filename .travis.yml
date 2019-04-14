@@ -46,15 +46,15 @@ install:
 
 script:
   - CXX=/usr/bin/clang++-5.0
-  - cd ${TRAVIS_BUILD_DIR}/Software
+
+  - cd ${TRAVIS_BUILD_DIR}/Software/Firmware/
   - bash dependencies.sh 
-  - cd ${TRAVIS_BUILD_DIR}
-  - cd Software/
   - mkdir build
   - cd ./build
-  - cmake -DCMAKE_BUILD_TYPE=Debug ../src
+  - cmake -DCMAKE_BUILD_TYPE=Debug ../
   - make all -j
   - ctest --output-on-failure
   - make clean
-  - cmake -DCMAKE_BUILD_TYPE=Release ../src
-  - make -j
+  - cmake -DCMAKE_BUILD_TYPE=Release ../
+  
+  - make all -j
