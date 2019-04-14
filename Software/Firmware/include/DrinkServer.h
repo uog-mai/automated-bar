@@ -1,11 +1,13 @@
 #pragma once
 
 #include <map>
+#include <memory>
 
 #include "Drinks.h"
 #include "DrinksConfig.h"
 #include "ServoHandler.h"
 #include "HX711/HX711.h"
+
 
 class DrinkServer {
 typedef unsigned int pin_num_t;
@@ -25,5 +27,5 @@ public:
     Status dispense_drink(const mai::Drinks::Type drink_type, const float weight_gm);
 
 private:
-    std::map<mai::Drinks::Type, ServoHandler> servo_map;
+    std::map<mai::Drinks::Type, std::shared_ptr<ServoHandler>> servo_map;
 };
