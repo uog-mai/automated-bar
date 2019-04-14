@@ -3,9 +3,10 @@ import requests
 
 import database
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(__file__), '../Firmware/build', 'libextension'))
+#sys.path.append(os.path.join(os.path.dirname(__file__), '../Firmware/build', 'libextension'))
+#print(sys.path)
 import libextension
-import libDrinksConfig
+#import libDrinksConfig
 
 app = Flask(__name__)
 
