@@ -12,18 +12,6 @@
     <list default="true" id="ef9c32d3-b28f-4f11-8c75-5dc9df0c4f9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hardware/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/baseplate.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/baseplate.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/baseplate.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/baseplate.stl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/extrusion_clip.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/extrusion_clip.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/extrusion_clip.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/extrusion_clip.stl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/plunger.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/plunger.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/plunger.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/plunger.stl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/prox_base.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/prox_base.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/prox_base.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/prox_base.stl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/servo.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/servo.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/servo.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/servo.stl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/tube_clamp.ipt" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/IPT Inventor files/tube_clamp.ipt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hardware/tube_clamp.stl" beforeDir="false" afterPath="$PROJECT_DIR$/Hardware/CAD/STL print files/tube_clamp.stl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Software/Server/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Software/Firmware/src/ServoHandler.cpp">
           <provider selected="true" editor-type-id="text-editor" />
@@ -100,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/Hardware/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="289">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -193,6 +169,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\peter\Desktop\automated-bar\Hardware\assets" />
       <recent name="C:\Users\peter\Desktop\automated-bar\Hardware\CAD\IPT Inventor files" />
       <recent name="C:\Users\peter\Desktop\automated-bar\Hardware\CAD\STL print files" />
     </key>
@@ -220,18 +197,18 @@
       <option name="presentableId" value="Default" />
       <updated>1555244034133</updated>
       <workItem from="1555244035498" duration="1188000" />
-      <workItem from="1555248858980" duration="5854000" />
+      <workItem from="1555248858980" duration="11140000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7042000" />
+    <option name="totallyTimeSpent" value="12328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25292096" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25292096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -328,6 +305,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/InteractionDiagram.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hardware/assets/ShieldRendering.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Software/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -341,8 +324,8 @@
     <entry file="file://$PROJECT_DIR$/Hardware/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="289">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           </first_editor>
           <second_editor />
         </state>
