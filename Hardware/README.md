@@ -11,23 +11,23 @@ plunger. As the servo rotates, the plunger mechanism is pulled upwards, closing 
 dispenser line, and allowing air return via a sprung element within the optic.
 
 ### Optic dispensing assembly
-![Alt text](assets/OpticRendering.png)
+![Alt text](assets/OpticRendering.PNG)
 
 Food grade PVC tubes run from each optic and are held centrally above the receptacle by two aligning components.
 
 ### Dispenser alignment
-![Alt text](assets/TubeRendering.png)
+![Alt text](assets/TubeRendering.PNG)
 
 The user's drinking vessel is placed upon a carbon fiber plate, mounted to a load cell with a printed element. This is 
 then rigidly mounted to the frame for feedback within the dispensing system.
 
 ### Loadcell baseplate
-![Alt text](assets/PlateRendering.png)
+![Alt text](assets/PlateRendering.PNG)
 
 Behind this is a digital proximity sensor, providing detection of a cup on the plate, held in position by a sliding 
 printed mounting on the extrusion.
 ###Proximity sensor mounting
-![Alt text](assets/ProxRendering.png)
+![Alt text](assets/ProxRendering.PNG)
 
 ### Design files
 
