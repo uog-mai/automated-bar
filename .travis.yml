@@ -47,7 +47,7 @@ install:
 script:
   - CXX=/usr/bin/clang++-5.0
 
-  - cd ${TRAVIS_BUILD_DIR}/Software/Firmware
+  - cd ${TRAVIS_BUILD_DIR}/Software/Firmware/
   - bash dependencies.sh 
   - mkdir build
   - cd ./build

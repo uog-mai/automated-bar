@@ -2,16 +2,21 @@
 
 #include <map>
 #include <memory>
+#include <wiringPi.h>
 
 #include "Drinks.h"
 #include "DrinksConfig.h"
 #include "ServoHandler.h"
 #include "HX711/HX711.h"
 
-
 class DrinkServer {
 typedef unsigned int pin_num_t;
 public:
+
+
+    const int setup_status = wiringPiSetupGpio();
+
+
 
     HX711 scale;
 
