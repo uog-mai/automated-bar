@@ -10,7 +10,7 @@ This page will show you exactly how to build your own automated-bar for under £
 
 Check out our design and build process on our Instagram page: [m{A.I.}.](https://www.instagram.com/m_a.i._/?hl=en)
 
-Or our instructables for our full build instructions: 
+Or our instructables for our full build instructions: [Instructables](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
 
 ## Features
 Scalability to any assortment of spirits and mixers
@@ -65,7 +65,7 @@ The automated bar holds an array of alcoholic drinks and mixers of the users cho
 
 Full CAD resources including Autodesk Inventor files and assemblies of the system can be found within our Hardware subsection, and full electronics design files are available through the [Altium CircuitMaker community.](https://circuitmaker.com/Projects/Details/Peter-Fleming-2/UoG-mai-automated-bar) 
 
-For full build instructions and BOM please see our Instructables page INSTRUCTABLES LINK HERE
+For full build instructions and BOM please see our Instructables page [https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
 
 
 
