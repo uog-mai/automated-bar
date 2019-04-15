@@ -58,16 +58,22 @@ This should run your webserver (default traffic input through port 5000) on the 
 *Congratulations* You have completed the software set-up, you can now ask Google Home to talk to ```m{A.I.}``` (through voice or text) and you cna begin ordering your drinks. 
 
 ## Overview
+The automated bar holds an array of alcoholic drinks and mixers of the users choice, clamped onto the top of the frame, each paired with their own mounted servos. When a user orders a drink the volume and weight of the desired drink is found and calculated, and the appropriate servos are driven to dispsense the fluid the correct beverage. A proximity sensor on the cup stand checks whether a user has added a cup and a weight sensor confirms the correct amount of fluid has been dispensed. 
 
 ### Hardware 
+####Links
 
 Full CAD resources including Autodesk Inventor files and assemblies of the system can be found within our Hardware subsection, and full electronics design files are available through the [Altium CircuitMaker community.](https://circuitmaker.com/Projects/Details/Peter-Fleming-2/UoG-mai-automated-bar) 
 
 For full build instructions and BOM please see our Instructables page INSTRUCTABLES LINK HERE
 
+
+
 ### Software
+The software is split up into two sections: ```C++``` firmware and logic and and a ```Python``` web server that interacts with dialogflow. The logic section interacts with the firmware of the sensors and controls the handling of the fluid and the verificaiton of states. The Python web server acts to parse and network information from dialogflow to the logic.
+
 <p align="center">
-<img src="https://github.com/uog-mai/automated-bar/tree/master/assets/InterationDiagram.png">
+<img src="https://github.com/uog-mai/automated-bar/tree/master/assets/InteractionDiagram.png">
 </p>
 
 Further details of the software can be found in the Software directory README: ```automated-bar/Software/README```and in the Software section of the Wiki.
