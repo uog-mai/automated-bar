@@ -18,6 +18,8 @@ Or our instructables for our full build instructions visit our [Instructables](h
 
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
 
+<img src="https://github.com/uog-mai/automated-bar/blob/master/Hardware/assets/FrameRendering.PNG" width="50%" height="50%"/>
+
 ## Features
 Scalability to any assortment of spirits and mixers
 
