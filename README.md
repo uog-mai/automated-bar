@@ -2,7 +2,9 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d979a961225d45618b61c0bc4588a02c)](https://www.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uog-mai/automated-bar&amp;utm_campaign=Badge_Grade)
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![Alt text](assets/FullLogo)
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png" ">
+</p>
 
 # m{A.I.} get you a drink?
 
