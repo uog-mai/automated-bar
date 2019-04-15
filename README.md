@@ -1,5 +1,10 @@
 [![Build Status](https://travis-ci.org/uog-mai/automated-bar.svg?branch=develop)](https://travis-ci.org/uog-mai/automated-bar)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d979a961225d45618b61c0bc4588a02c)](https://www.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uog-mai/automated-bar&amp;utm_campaign=Badge_Grade)
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png"  width="80%" height="80%"/>
+</p>
 
 # m{A.I.} get you a drink?
 
@@ -13,6 +18,10 @@ Or our instructables for our full build instructions visit our [Instructables](h
 
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
 
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/Hardware/assets/FrameRendering.PNG"  width="70%" height="70%"/>
+</p>
+ 
 ## Features
 Scalability to any assortment of spirits and mixers
 
@@ -56,7 +65,7 @@ python3 index.py
 ``` 
 This should run your webserver (default traffic input through port 5000) on the RPI with the C++ shared object imported as a module. 
 
-*Congratulations* You have completed the software set-up, you can now ask Google Home to talk to ```m{A.I.}``` (through voice or text) and you cna begin ordering your drinks. 
+*Congratulations* You have completed the software set-up, you can now ask Google Home to talk to ```m{A.I.}``` (through voice or text) and you can begin ordering your drinks. 
 
 ## Overview
 The automated bar holds an array of alcoholic drinks and mixers of the users choice, clamped onto the top of the frame, each paired with their own mounted servos. When a user orders a drink the volume and weight of the desired drink is found and calculated, and the appropriate servos are driven to dispsense the fluid the correct beverage. A proximity sensor on the cup stand checks whether a user has added a cup and a weight sensor confirms the correct amount of fluid has been dispensed. 

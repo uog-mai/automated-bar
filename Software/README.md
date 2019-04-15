@@ -36,4 +36,3 @@ The software consisists of two main sections: the server and the firmware. Firmw
 ### Server
 ```index.py``` is the Python file that uses ```Flask``` import modules to run as a web server. It recieves the webhook from dialogflow, parses the input and refers to the ```database.py``` Python script which contains methods and data that allows the server to retrieve the necessary densities of drinks and to provide a response to the user.
 
-
