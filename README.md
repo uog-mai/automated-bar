@@ -2,6 +2,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d979a961225d45618b61c0bc4588a02c)](https://www.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uog-mai/automated-bar&amp;utm_campaign=Badge_Grade)
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![Alt text](assets/Logo.PNG)
+
 # m{A.I.} get you a drink?
 
 m{A.I.} is a project aiming to produce a low-cost, voice-activated, automated drinks vending system for use in high-end consumer and commercial applications. Order your favourite drink through voice commands on Google Home on your mobile or use our custom made GUI to select drinks. 
@@ -57,7 +59,7 @@ python3 index.py
 ``` 
 This should run your webserver (default traffic input through port 5000) on the RPI with the C++ shared object imported as a module. 
 
-*Congratulations* You have completed the software set-up, you can now ask Google Home to talk to ```m{A.I.}``` (through voice or text) and you cna begin ordering your drinks. 
+*Congratulations* You have completed the software set-up, you can now ask Google Home to talk to ```m{A.I.}``` (through voice or text) and you can begin ordering your drinks. 
 
 ## Overview
 The automated bar holds an array of alcoholic drinks and mixers of the users choice, clamped onto the top of the frame, each paired with their own mounted servos. When a user orders a drink the volume and weight of the desired drink is found and calculated, and the appropriate servos are driven to dispsense the fluid the correct beverage. A proximity sensor on the cup stand checks whether a user has added a cup and a weight sensor confirms the correct amount of fluid has been dispensed. 
