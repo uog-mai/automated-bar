@@ -66,8 +66,9 @@ Full CAD resources including Autodesk Inventor files and assemblies of the syste
 For full build instructions and BOM please see our Instructables page INSTRUCTABLES LINK HERE
 
 ### Software
-
-![Alt text](assets/InteractionDiagram.png)
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/tree/master/assets/InterationDiagram.png">
+</p>
 
 Further details of the software can be found in the Software directory README: ```automated-bar/Software/README```and in the Software section of the Wiki.
 
