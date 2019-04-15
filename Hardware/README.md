@@ -57,7 +57,7 @@ For future development, pads were also provided for:
 * x1 Spare load cell amplifier channel
 * x2 Opto-isolated solenoid drivers with 12V rail
 
-###Proximity sensor board
+### Proximity sensor board
 
 An additional board was built to mount the digital proximity sensor and it's required circuitry, and can be built out of 
 un-finished FR4 easily. Alternatively, several expansion boards are available for the same or similar ICs,  and the 
