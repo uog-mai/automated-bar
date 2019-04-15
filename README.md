@@ -66,7 +66,7 @@ The automated bar holds an array of alcoholic drinks and mixers of the users cho
 
 Full CAD resources including Autodesk Inventor files and assemblies of the system can be found within our Hardware subsection, and full electronics design files are available through the [Altium CircuitMaker community.](https://circuitmaker.com/Projects/Details/Peter-Fleming-2/UoG-mai-automated-bar) 
 
-For full build instructions and BOM please see our Instructables page [https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw](here)
+For full build instructions and BOM please see our Instructables page [here](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
 
 
 
