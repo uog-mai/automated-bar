@@ -68,6 +68,7 @@ For full build instructions and BOM please see our Instructables page INSTRUCTAB
 ### Software
 
 ![Alt text](assets/InteractionDiagram.png)
+
 Further details of the software can be found in the Software directory README: ```automated-bar/Software/README```and in the Software section of the Wiki.
 
 
