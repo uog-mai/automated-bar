@@ -1,16 +1,17 @@
 [![Build Status](https://travis-ci.org/uog-mai/automated-bar.svg?branch=develop)](https://travis-ci.org/uog-mai/automated-bar)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d979a961225d45618b61c0bc4588a02c)](https://www.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uog-mai/automated-bar&amp;utm_campaign=Badge_Grade)
 
-# Automated-Bar
-### Completed as a project towards Real Time Embedded Programming 5 at the University of Glasgow
+# m{A.I.} get you a drink?
 
-This project aims to produce a low-cost, voice-activated, automated drinks vending system for use in high-end consumer and commercial applications. Order your favourite drink through voice commands on Google Home on your mobile or use our custom made GUI to select drinks. 
+m{A.I.} is a project aiming to produce a low-cost, voice-activated, automated drinks vending system for use in high-end consumer and commercial applications. Order your favourite drink through voice commands on Google Home on your mobile or use our custom made GUI to select drinks. 
 
 This page will show you exactly how to build your own automated-bar for under £75, providing you with a components list, all the necessary CAD technical drawings and electronics schematics and an easy one step install for all the required software and firmware. 
 
 Check out our design and build process on our Instagram page: [m{A.I.}.](https://www.instagram.com/m_a.i._/?hl=en)
 
 Or our instructables for our full build instructions visit our [Instructables](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
+
+Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
 
 ## Features
 Scalability to any assortment of spirits and mixers
