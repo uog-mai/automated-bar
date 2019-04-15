@@ -18,7 +18,14 @@ Or our instructables for our full build instructions visit our [Instructables](h
 
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
 
-<img src="https://github.com/uog-mai/automated-bar/blob/master/Hardware/assets/FrameRendering.PNG" width="50%" height="50%"/>
+<div style="display:flex">
+     <div style="flex:1;padding-right:5px;">
+          <img src="https://github.com/uog-mai/automated-bar/blob/master/Hardware/assets/FrameRendering.PNG" width="50%" height="50%"/>
+     </div>
+     <div style="flex:1;padding-left:5px;">
+           <img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/IMG_20190403_172130.jpg" width="20%" height="20%"/>
+     </div>
+</div>
 
 ## Features
 Scalability to any assortment of spirits and mixers
