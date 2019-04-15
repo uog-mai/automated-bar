@@ -39,8 +39,6 @@ def get_drink():
     print("Server recieved ", libextension.dispense_drink(alcString, alc_weight))
 
     return jsonify(reply)
-    
-
 
 # run Flask app
 if __name__ == "__main__":
