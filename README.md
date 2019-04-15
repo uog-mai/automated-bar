@@ -3,7 +3,7 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 <p align="center">
-<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png"  width="70%" height="70%">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png"  width="50%" height="50%">
 </p>
 
 # m{A.I.} get you a drink?
