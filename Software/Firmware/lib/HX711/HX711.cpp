@@ -148,3 +148,4 @@ void HX711::power_down() {
 void HX711::power_up() {
 	digitalWrite(PD_SCK, LOW);
 }
+

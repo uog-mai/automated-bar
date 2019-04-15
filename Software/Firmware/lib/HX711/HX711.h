@@ -72,3 +72,4 @@ class HX711
 };
 
 #endif /* HX711_h */
+

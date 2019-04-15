@@ -19,8 +19,6 @@ def get_drink():
 
     mixer = data['queryResult']['parameters']['mixer']
     alcohol = data['queryResult']['parameters']['alcohol']
-    print(mixer, alcohol)
-
     
     # Get alcohol name
     mixerString = ''.join(mixer)
@@ -36,9 +34,11 @@ def get_drink():
         "fulfillmentText": response,
     }
 
+
     print("Server recieved ", libextension.dispense_drink(alcString, alc_weight))
 
     return jsonify(reply)
+    
 
 # run Flask app
 if __name__ == "__main__":

@@ -9,6 +9,7 @@
 ServoHandler::ServoHandler(const int pin_num)
                           : m_activated(false),
                             m_pin_num(pin_num) {
+
   /* Check the GPIO Pins are Setup. 
  if (WiringPiSetupGpio() == -1)
     throw std::runtime_error("Failed to setup GPIO for wiringPi");
@@ -23,7 +24,8 @@ ServoHandler::ServoHandler(const int pin_num)
   pwmSetMode(PWM_MODE_MS);
   pwmSetClock(m_clockValue);
   pwmSetRange(m_rangeValue);
-  
+
+
 }
 
 ServoHandler::ServoStatus ServoHandler::activate() {
@@ -39,3 +41,4 @@ ServoHandler::ServoStatus ServoHandler::deactivate() {
     pwmWrite(m_pin_base + m_pin_num , m_pwm_off);
     return ServoHandler::ServoStatus::ACTION_SUCCESS;
 }
+

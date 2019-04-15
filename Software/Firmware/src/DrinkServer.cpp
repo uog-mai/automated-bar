@@ -1,6 +1,9 @@
 #include "DrinkServer.h"
 #include <memory>
+
 #include <stdexcept>
+
+
 
 DrinkServer::DrinkServer(const mai::DrinksConfig &drinks_config) {
     for (const auto& drink: drinks_config.m_drinks_map) {
@@ -8,9 +11,12 @@ DrinkServer::DrinkServer(const mai::DrinksConfig &drinks_config) {
         const mai::Drinks::Position drink_pos = drink.second;
         servo_map[drink.first] = std::make_shared<ServoHandler>(static_cast<int>(drink_pos));
     }
+
     
     if (setup_status == -1)
 	throw::std::runtime_error("Failed to setup wiringPi in DrinkServer");
+
+
 }
 
 DrinkServer::Status DrinkServer::weight_match(HX711 scale, const float target_weight){

@@ -36,9 +36,10 @@ include_directories(
 	${ARG_LIST} 		     
 )
 
-
 add_library(DrinksConfig SHARED src/DrinksConfig.cpp)
+
 add_library(extension${extension} SHARED src/PyDrinkServer.cpp src/DrinksConfig.cpp src/DrinkServer.cpp src/ServoHandler.cpp lib/HX711/HX711.cpp)
+
 #add_library(DrinkServer SHARED src/DrinkServer.cpp)
 #add_library(ServoHandler SHARED src/ServoHandler.cpp)
 #add_library(HX711 SHARED lib/HX711/HX711.cpp)
