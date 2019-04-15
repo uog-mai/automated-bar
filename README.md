@@ -21,6 +21,8 @@ Completed as part of the University of Glasgow's Real Time Embedded Programming 
 <p align="center">
 <img src="https://github.com/uog-mai/automated-bar/blob/develop/Hardware/assets/FullFrameRendering.PNG"  width="70%" height="70%"/>
 </p>
+
+![Alt Text](https://github.com/uog-mai/automated-bar/blob/develop/assets/Assistant.gif
  
 ## Features
 Scalability to any assortment of spirits and mixers
