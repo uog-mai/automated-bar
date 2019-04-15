@@ -40,11 +40,13 @@ The cup detection is done by the proximity sensor which returns a boolean value 
 Dispension is monitored by the weight sensor; once the python web server receives an order it calculates the required weight to dispense from the required volume and a density lookup table. The servos mapped to that drink are then found and subsequently actuated until the weight is matched. Once completed the the server returns a response to dialogflow indicating to the user that their drink is ready.
 
 ## State Transition Diagram
-<p align="center"
+<p align="center">
 <img src="https://github.com/uog-mai/automated-bar/blob/develop/Software/assets/MooreStateModel.png">
 </p>
 
 The following diagram displays the sequence of events; it is a completely sequential logic since it could be formulated as such. The response time is more than satsisfactory and making it parallel would only provide further complication. If it can be done in sequence then there is no reason to overcomplicate it.
 
 ## Sequence Diagram
-![Alt text](assets/UMLDiagram.png)
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/Software/assets/UMLDiagram.png">
+</p>
