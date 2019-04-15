@@ -73,12 +73,13 @@ For full build instructions and BOM please see our Instructables page INSTRUCTAB
 The software is split up into two sections: ```C++``` firmware and logic and and a ```Python``` web server that interacts with dialogflow. The logic section interacts with the firmware of the sensors and controls the handling of the fluid and the verificaiton of states. The Python web server acts to parse and network information from dialogflow to the logic.
 
 <p align="center">
-<img src="https://github.com/uog-mai/automated-bar/tree/master/assets/InteractionDiagram.png">
+<img src="https://github.com/uog-mai/automated-bar/tree/master/assets/InteractionDiagram.png" 
+alt="Flowers in Chania">
 </p>
 
 Further details of the software can be found in the Software directory README: ```automated-bar/Software/README```and in the Software section of the Wiki.
 
-
+alt="Flowers in Chania"
 
 
 
