@@ -1,5 +1,6 @@
 
 ### Structure
+The software consisists of two main sections: the server and the firmware. Firmware is the c++ source code that compiles to a shared object that contains the automated bar logic and interacts with the load cell (HX711), servos and proximity sensor. The server directory contains the a python web server that imports the shared object as a module, once it recieves a webhook from dialogflow it subsequently parses and accesses the desired behaviour through the binding.
 ```bash
 .
 |
@@ -20,7 +21,6 @@
     ├── __pycache__
     └── README.md
 ```
-The software consisists of two main sections: the server and the firmware. Firmware is the c++ source code that compiles to a shared object that contains the automated bar logic and interacts with the load cell (HX711), servos and proximity sensor. The server directory contains the a python web server that imports the shared object as a module, once it recieves a webhook from dialogflow it subsequently parses and accesses the desired behaviour through the binding.
 
 ```build.sh```  is a bash script that automatically downlaods, installs and compiles the entire project on a RaspberryPi  model 3 B with raspian (stretch), it has also been verified to compile on Ubuntu 16.04 (However you wont be able to run it since you have no GPIO pins). This file calls the ```dependencies``` bash script which clones and isntalls the ```WiringPi``` and ```pca9685``` libraries. It also installs ```Python3```and ```pybind11``` a c++ --> python binding module. 
 
