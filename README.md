@@ -19,7 +19,7 @@ Or our instructables for our full build instructions visit our [Instructables](h
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
 
 <p align="center">
-<img src="https://github.com/uog-mai/automated-bar/blob/develop/Hardware/assets/FrameRendering.PNG"  width="70%" height="70%"/>
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/Hardware/assets/FullFrameRendering.PNG"  width="70%" height="70%"/>
 </p>
  
 ## Features
