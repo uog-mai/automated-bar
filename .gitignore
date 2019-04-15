@@ -1,6 +1,7 @@
 .vscode/*
 
 assets/
+.idea
 
 # Build Dirs
 build/
