@@ -2,9 +2,6 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d979a961225d45618b61c0bc4588a02c)](https://www.codacy.com/app/eddymj96/automated-bar?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=uog-mai/automated-bar&amp;utm_campaign=Badge_Grade)
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<p align="center">
-<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png"  width="50%" height="50%"/>
-</p>
 
 # m{A.I.} get you a drink?
 
@@ -17,6 +14,11 @@ Check out our design and build process on our Instagram page: [m{A.I.}.](https:/
 Or our instructables for our full build instructions visit our [Instructables](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
 
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
+
+<p align="center">
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/FullLogo.png"  width="50%" height="50%"/>
+</p>
+
  
 ## Features
 Scalability to any assortment of spirits and mixers
