@@ -2,16 +2,12 @@
 
 #include <map>
 #include <memory>
-<<<<<<< HEAD
 #include <wiringPi.h>
-=======
->>>>>>> 36b313b101d76850a68fde51451006dd8bcc6803
 
 #include "Drinks.h"
 #include "DrinksConfig.h"
 #include "ServoHandler.h"
 #include "HX711/HX711.h"
-
 
 class DrinkServer {
 typedef unsigned int pin_num_t;
