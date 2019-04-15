@@ -29,6 +29,13 @@ if ! [ $? ]; then
   pip3 install pybind11
 fi
 
+python3 -c 'import Flask'
+
+if ! [ $? ]; then
+  pip3 install Flask
+fi
+
+
 export CXX="/usr/bin/clang++-3.8"
 cd Firmware/
 bash dependencies.sh
