@@ -29,7 +29,7 @@ if ! [ $? ]; then
   pip3 install pybind11
 fi
 
-CXX=/usr/bin/clang++-3.8
+export CXX="/usr/bin/clang++-3.8"
 cd Firmware/
 bash dependencies.sh
 mkdir build
@@ -40,4 +40,7 @@ ctest --output-on-failure
 make clean
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make all -j
+
+ext=`python3-config --extension-suffix`
+mv libextension$ext ../../Server/	
  

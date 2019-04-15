@@ -3,10 +3,9 @@ import requests
 
 import database
 import sys, os
-#sys.path.append(os.path.join(os.path.dirname(__file__), '../Firmware/build', 'libextension'))
-#print(sys.path)
+
 import libextension
-#import libDrinksConfig
+import libDrinksConfig
 
 app = Flask(__name__)
 
@@ -30,7 +29,7 @@ def get_drink():
     alcString = ''.join(alcohol)
 
     # Calculate required drink weights
-    alc_weight = database.get_alcohol_weight("Rum", 20)
+    alc_weight = database.get_alcohol_weight(alcString, 20)
     
     
     response = database.random_response()       
@@ -39,7 +38,7 @@ def get_drink():
         "fulfillmentText": response,
     }
 
-    #print("Server recieved ", libextension.serveDrink(mixerString, alcString))
+    print("Server recieved ", libextension.dispense_drink(alcString, alc_weight))
 
     return jsonify(reply)
     
