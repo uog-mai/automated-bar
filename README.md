@@ -61,7 +61,8 @@ This should run your webserver (default traffic input through port 5000) on the 
 The automated bar holds an array of alcoholic drinks and mixers of the users choice, clamped onto the top of the frame, each paired with their own mounted servos. When a user orders a drink the volume and weight of the desired drink is found and calculated, and the appropriate servos are driven to dispsense the fluid the correct beverage. A proximity sensor on the cup stand checks whether a user has added a cup and a weight sensor confirms the correct amount of fluid has been dispensed. 
 
 ### Hardware 
-####Links
+
+#### Links
 
 Full CAD resources including Autodesk Inventor files and assemblies of the system can be found within our Hardware subsection, and full electronics design files are available through the [Altium CircuitMaker community.](https://circuitmaker.com/Projects/Details/Peter-Fleming-2/UoG-mai-automated-bar) 
 
