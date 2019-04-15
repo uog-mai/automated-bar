@@ -25,8 +25,8 @@ def get_drink():
     alcString = ''.join(alcohol)
 
     # Calculate required drink weights
-    alc_weight = database.get_alcohol_weight(alcString, 20)
-    
+    mix_weight = database.get_mixer_weight(mixerString, 200)
+    alc_weight = database.get_alcohol_weight(alcString, 200);
     
     response = database.random_response()
    
@@ -35,11 +35,13 @@ def get_drink():
     }
 
 
+    print("Server recieved ", libextension.dispense_drink(mixerString, mix_weight))
     print("Server recieved ", libextension.dispense_drink(alcString, alc_weight))
-
+    
     return jsonify(reply)
     
 
 # run Flask app
 if __name__ == "__main__":
     app.run()
+

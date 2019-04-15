@@ -66,6 +66,15 @@ alcohol_density_map = {
 "Buckfast":0.98
 }
 
+
+mixer_density_map = {
+"Coke":1.045,
+"Lemonade":1.0,
+"Milk":1.034,
+"Tonic":1.031,
+"Irn-Bru":1.05
+}
+
 responses = {
 'I can see youre a cultured individual',
 'Down it fresher', 
@@ -74,7 +83,10 @@ responses = {
 }
 
 def get_alcohol_weight(drink, volume):
-    return volume*alcohol_density_map[drink] 
+    return volume*alcohol_density_map[drink]
+ 
+def get_mixer_weight(drink, volume):
+    return volume*mixer_density_map[drink]
 
 def random_response():
     return responses[random.randint(0,len(responses))]
