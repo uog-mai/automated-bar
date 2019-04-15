@@ -79,5 +79,9 @@ The software is split up into two sections: ```C++``` firmware and logic and and
 
 Further details of the software can be found in the Software directory README: ```automated-bar/Software/README```and in the Software section of the Wiki.
 
+## Contributors
+[Peter Fleming](https://github.com/petemfleming)
 
+[Joseph Marsden](https://github.com/jrmars)
 
+[Edward Mortimer](https://github.com/eddymj96)
