@@ -95,7 +95,3 @@ Further details of the software can be found in the Software directory README: `
 [Joseph Marsden](https://github.com/jrmars)
 
 [Edward Mortimer](https://github.com/eddymj96)
-
-
-## Social Media
-[Instagram](https://www.instagram.com/p/BwSo-14BPw1/)
