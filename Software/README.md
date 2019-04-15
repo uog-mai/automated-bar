@@ -54,6 +54,3 @@ The following diagram displays the sequence of events; it is a completely sequen
 <p align="center">
 <img src="https://github.com/uog-mai/automated-bar/blob/develop/Software/assets/UMLDiagram.png">
 </p>
-
-## Web Server
-A Python web server is hosted in 
