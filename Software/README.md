@@ -1,5 +1,5 @@
-
-### Structure
+# Software
+## Structure
 The software consisists of two main sections: the server and the firmware. Firmware is the c++ source code that compiles to a shared object that contains the automated bar logic and interacts with the load cell (HX711), servos and proximity sensor. The server directory contains the a python web server that imports the shared object as a module, once it recieves a webhook from dialogflow it subsequently parses and accesses the desired behaviour through the binding.
 ```bash
 .
