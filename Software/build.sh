@@ -41,6 +41,6 @@ make clean
 cmake -DCMAKE_BUILD_TYPE=Release ../
 make all -j
 
-ext=`python3-config --extension-suffix`
+ext=$(python3-config --extension-suffix)
 mv libextension$ext ../../Server/	
  

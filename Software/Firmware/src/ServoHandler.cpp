@@ -17,11 +17,13 @@ ServoHandler::ServoHandler(const int pin_num)
 
   if (pca_setup == -1);
     throw std::runtime_error("Failed to setup GPIO for wiringPiPca9685");
+  
   pca9685PWMReset(pca_setup);
   pinMode(m_RPI_pwm_pin, PWM_OUTPUT);
   pwmSetMode(PWM_MODE_MS);
   pwmSetClock(m_clockValue);
   pwmSetRange(m_rangeValue);
+  
 }
 
 ServoHandler::ServoStatus ServoHandler::activate() {

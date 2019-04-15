@@ -2,10 +2,8 @@ from flask import Flask, request, jsonify, render_template
 import requests
 
 import database
-import sys, os
 
 import libextension
-import libDrinksConfig
 
 app = Flask(__name__)
 
@@ -32,8 +30,8 @@ def get_drink():
     alc_weight = database.get_alcohol_weight(alcString, 20)
     
     
-    response = database.random_response()       
-                
+    response = database.random_response()
+   
     reply = {
         "fulfillmentText": response,
     }
