@@ -17,10 +17,6 @@ Check out our design and build process on our Instagram page: [m{A.I.}.](https:/
 Or our instructables for our full build instructions visit our [Instructables](https://www.instructables.com/id/Automated-Bar/?fbclid=IwAR164nX4zJPxj-1INAbjbvhC8MxjTqYTo5nI_1YeSPRZ3n-1Oe-pBTOgsIw)
 
 Completed as part of the University of Glasgow's Real Time Embedded Programming 5 team project
-
-<p align="center">
-          <img src="https://github.com/uog-mai/automated-bar/blob/master/Hardware/assets/FrameRendering.PNG"         
-</p>
  
 ## Features
 Scalability to any assortment of spirits and mixers
