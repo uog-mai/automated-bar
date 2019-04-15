@@ -23,7 +23,7 @@ Completed as part of the University of Glasgow's Real Time Embedded Programming 
 </p>
 
 <p align="center">
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://github.com/uog-mai/automated-bar/blob/develop/assets/Assistant.gif" width="40" height="40" />
 </p>
  
 ## Features
