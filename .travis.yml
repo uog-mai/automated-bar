@@ -4,6 +4,17 @@ sudo: require
 language: cpp
 compiler: clang++
 
+branches:
+  except:
+    - gh-pages
+
+env:
+  global:
+    - GH_REPO_NAME: <your_repo>
+    - DOXYFILE: $TRAVIS_BUILD_DIR/<path_to_your_doxygen_configuration_file>
+    - GH_REPO_REF: github.com/<your_name>/<your_repo>.git
+
+
 addons:
   apt:
     sources:
@@ -18,6 +29,11 @@ addons:
       - python3-dev
       - python3-venv
       - python3-pip
+      - doxygen
+      - doxygen-doc
+      - doxygen-latex
+      - doxygen-gui
+      - graphviz
 
 matrix:
   include:
@@ -58,3 +74,8 @@ script:
   - cmake -DCMAKE_BUILD_TYPE=Release ../
   
   - make all -j
+
+after_success:
+  - cd $TRAVIS_BUILD_DIR
+  - chmod +x generateDocumentationAndDeploy.sh
+  - ./generateDocumentationAndDeploy.sh
