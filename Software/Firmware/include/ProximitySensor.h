@@ -11,4 +11,4 @@ private:
 bool m_cup_detected;
 const signed int prox_pin;
 
-}
+};

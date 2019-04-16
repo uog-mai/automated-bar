@@ -8,6 +8,7 @@
 #include "DrinksConfig.h"
 #include "ServoHandler.h"
 #include "HX711/HX711.h"
+#include "ProximitySensor.h"
 
 class DrinkServer {
 typedef unsigned int pin_num_t;
@@ -19,6 +20,7 @@ public:
 
 
     HX711 scale;
+    ProximitySensor prox_sensor; 
 
     enum class Status {
         DISPENSE_FAILURE,
