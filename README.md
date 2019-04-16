@@ -48,7 +48,7 @@ You will also need to sign-up and download [```ngrok```](https://dashboard.ngrok
 
 This following software has only been verified to compile on the Raspberry Pi 3 Model B ```raspian (stretch)``` and ```Ubuntu 16.04```, however it should work on other raspbian distros and RPI models too.
 
-This installation has should be run from the command line of the Raspberry Pi by first cloning this git repo.
+This installation should be run from the command line of the Raspberry Pi by first cloning this git repo.
 ```bash
 git clone https://github.com/uog-mai/automated-bar/
 cd automated-bar/Software/

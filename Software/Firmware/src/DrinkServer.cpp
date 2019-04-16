@@ -21,9 +21,17 @@ DrinkServer::DrinkServer(const mai::DrinksConfig &drinks_config) {
 
 DrinkServer::Status DrinkServer::weight_match(HX711 scale, const float target_weight){
 
+
     while(scale.read_trimmed_avg() <= target_weight){
-        // Wait until weight is matched
-    }
+        // Wait until weight is matched, stop if cup is not detected
+	
+	bool cup_detected = prox_sensor.detect_cup();
+	
+	if(!cup_detected){
+		return DrinkServer::Status::DISPENSE_FAILURE; 
+	}		
+
+    }	
     return DrinkServer::Status::DISPENSE_SUCCESS;
 }
 
