@@ -11,42 +11,73 @@
 #include <QtGui>
 #include <QTextStream>
 
-void UpdateArr(QStringList *p)
+void Update(QString Filename, QStringList *p)
 {
+/*    QFile aFile(Filename);
+    if(!aFile.open(QFile::ReadOnly | QFile::Text))
+    {
+        qDebug() << "Could not open";
+        return;
+    }
+    QTextStream in(&aFile);
+    QStringList pos;
+    while (!in.atEnd())
+    {
+        QString line = in.readLine();
+        pos = line.split(",");
+        // *p = Drink;
+    }
+    *p = pos;
+    aFile.close();
+  */
     QStringList pos = {"Vodka","Gin","Rum","Buckfast","Coca Cola","Lemonade","Irn Bru","Tonic"};
     *p = pos;
     return;
 }
 
+/*
+void UpdateArr(QStringList pos, QStringList *p)
+{
+    QString File = "C:\\Users\\User\\Desktop\\automated-bar\\Software\\src\\qt GUI\\Drinks.txt";
+    Read(File, &pos);
+    //QStringList pos = {"Vodka","Gin","Rum","Buckfast","Coca Cola","Lemonade","Irn Bru","Tonic"};
+    *p = pos;
+    return;
+}
+*/
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
+
     ui->setupUi(this);
     //this->setFixedSize(1200,950);
+    QString File = "C:\\Users\\User\\Desktop\\automated-bar\\Software\\src\\qt GUI\\Drinks.txt";
     QStringList pos;
-    UpdateArr(&pos);
-    QTextStream p0(&pos[0]);
-    QTextStream p1(&pos[1]);
-    QTextStream p2(&pos[2]);
-    QTextStream p3(&pos[3]);
-    QTextStream p4(&pos[4]);
-    QTextStream p5(&pos[5]);
-    QTextStream p6(&pos[6]);
-    QTextStream p7(&pos[7]);
+    Update(File, &pos);
+//    QTextStream p0(&pos[0]);
+    //QTextStream p1(&pos[1]);
+    //QTextStream p2(&pos[2]);
+    //QTextStream p3(&pos[3]);
+    //QTextStream p4(&pos[4]);
+    //QTextStream p5(&pos[5]);
+    //QTextStream p6(&pos[6]);
+   // QTextStream p7(&pos[7]);
 
-    ui->textBrowser->setFontWeight(60);
+/*    ui->textBrowser->setFontWeight(60);
     ui->textBrowser->setFontPointSize(16);
     ui->textBrowser->setText(p0.readAll());
     ui->textBrowser->setAlignment(Qt::AlignCenter);
     ui->textBrowser->setFrameStyle(QFrame::NoFrame);
-
-    ui->textBrowser_2->setFontWeight(60);
+*/
+/*    ui->textBrowser_2->setFontWeight(60);
     ui->textBrowser_2->setFontPointSize(16);
     ui->textBrowser_2->setText(p1.readAll());
     ui->textBrowser_2->setAlignment(Qt::AlignCenter);
     ui->textBrowser_2->setFrameStyle(QFrame::NoFrame);
-
+*/
+/*
     ui->textBrowser_3->setFontWeight(60);
     ui->textBrowser_3->setFontPointSize(16);
     ui->textBrowser_3->setText(p2.readAll());
@@ -82,6 +113,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->textBrowser_8->setText(p7.readAll());
     ui->textBrowser_8->setAlignment(Qt::AlignCenter);
     ui->textBrowser_8->setFrameStyle(QFrame::NoFrame);
+*/
 }
 
 MainWindow::~MainWindow()
@@ -102,4 +134,25 @@ void MainWindow::on_pushButton_2_clicked()
     reDrink rDrink;
     rDrink.setModal(true);
     rDrink.exec();
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    QString File = "C:\\Users\\User\\Desktop\\automated-bar\\Software\\src\\qt GUI\\Drinks.txt";
+    QStringList pos;
+    Update(File, &pos);
+    QTextStream p0(&pos[0]);
+//    QTextStream p1(&pos[1]);
+    ui->textBrowser->setFontWeight(60);
+    ui->textBrowser->setFontPointSize(16);
+    ui->textBrowser->setText(p0.readAll());
+    ui->textBrowser->setAlignment(Qt::AlignCenter);
+    ui->textBrowser->setFrameStyle(QFrame::NoFrame);
+
+/*    ui->textBrowser_2->setFontWeight(60);
+    ui->textBrowser_2->setFontPointSize(16);
+    ui->textBrowser_2->append(p1.readAll());
+    ui->textBrowser_2->setAlignment(Qt::AlignCenter);
+    ui->textBrowser_2->setFrameStyle(QFrame::NoFrame);
+*/
 }

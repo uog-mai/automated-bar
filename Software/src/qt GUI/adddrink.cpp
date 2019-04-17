@@ -40,4 +40,5 @@ void addDrink::on_buttonBox_accepted()
     int Pos = ui->spinBox->value();
 
     Write(aDrink, Pos, Drink, Syn);
+
 }
