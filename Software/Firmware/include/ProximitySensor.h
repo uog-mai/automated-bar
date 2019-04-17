@@ -8,7 +8,9 @@ public:
     bool detect_cup();
  
 private:
-bool m_cup_detected;
-const signed int prox_pin;
+	
+    bool m_cup_detected;
+
+    const unsigned int m_prox_pin = 29;
 
 };

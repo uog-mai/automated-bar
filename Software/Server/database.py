@@ -75,12 +75,15 @@ mixer_density_map = {
 "Irn-Bru":1.05
 }
 
-responses = {
+responses = [
 'I can see youre a cultured individual',
 'Down it fresher', 
-'Hope you arent driving anytime soon', 
-'You made a cracking choice'
-}
+'Hope you arent driving anytime soon....', 
+'You made a cracking choice',
+'Remember you have work in 3 hours....'
+'Lay off the drink you madlad'
+]
+
 
 def get_alcohol_weight(drink, volume):
     return volume*alcohol_density_map[drink]
@@ -89,4 +92,4 @@ def get_mixer_weight(drink, volume):
     return volume*mixer_density_map[drink]
 
 def random_response():
-    return responses[random.randint(0,len(responses))]
+    return responses[random.randint(0,len(responses) - 1)]
