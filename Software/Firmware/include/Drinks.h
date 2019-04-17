@@ -31,21 +31,21 @@ namespace mai {
       };
       
       static Type resolve_drink(const std::string &drink) {
-        if (drink == "buckfast")
+        if (drink == "Buckfast")
           return Drinks::Type::BUCKFAST;
-        else if (drink == "coke")
+        else if (drink == "Coke")
           return Drinks::Type::COKE;
-        else if (drink == "gin")
+        else if (drink == "Gin")
           return Drinks::Type::GIN;
-        else if (drink == "irnbru")
+        else if (drink == "Irn-Bru")
           return Drinks::Type::IRNBRU;
-        else if (drink == "lemonade")
+        else if (drink == "Lemonade")
           return Drinks::Type::LEMONADE;
-        else if (drink == "rum")
+        else if (drink == "Rum")
           return Drinks::Type::RUM;
-        else if (drink == "tonic")
+        else if (drink == "Ronic")
           return Drinks::Type::TONIC;
-        else if (drink == "vodka")
+        else if (drink == "Vodka")
           return Drinks::Type::VODKA;
         else
           throw std::runtime_error("Could not resolve drink type: " + drink);
